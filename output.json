@@ -1,0 +1,41 @@
+{
+  "invoice_type": "TAX INVOICE",
+  "invoice_number": "INV-001",
+  "invoice_date": "Mar 16, 2026",
+  "due_date": "Mar 23, 2026",
+  "place_of_supply": "Karnataka",
+  "vendor": {
+    "name": "Infovrate Tech",
+    "contact": "Bengaluru",
+    "address": "Arunachal Pradesh",
+    "city": "India",
+    "state": "GSTIN 123456789",
+    "country": null,
+    "gstin": "123456789"
+  },
+  "bill_to": {
+    "name": ":",
+    "street": "Infovrate Tech",
+    "city": "Church Street",
+    "state": "Bengaluru",
+    "country": "Karnataka",
+    "gstin": null
+  },
+  "line_items": [
+    {
+      "description": "OCR test software 1 3000",
+      "quantity": "900.00",
+      "rate": "900.00",
+      "amount": "3000.00"
+    }
+  ],
+  "subtotal": "3000.00",
+  "igst_rate": "30%",
+  "igst_amount": "900.00",
+  "cess_rate": "30%",
+  "cess_amount": "900.00",
+  "total": "3000.00",
+  "currency": "INR",
+  "notes": "It was great doing business with you.",
+  "terms_conditions": "Please make the payment by the due date.\nZoho\nCrafted with ease using Invoice\nVisit zoho,.com/Invoice to create truly professional invoices"
+}
