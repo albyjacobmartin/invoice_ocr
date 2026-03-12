@@ -1,13 +1,10 @@
-# invoice_ocr_zoho.py
-# Targeted extraction for Zoho-style Tax Invoice layout
-
 import cv2
 import pytesseract
 import re
 import json
 import numpy as np
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' # make sure your tesseract path is correct
 
 
 # ─────────────────────────────────────────
@@ -86,6 +83,7 @@ def extract_address_block(text: str, start_marker: str, end_markers: list) -> di
 # ─────────────────────────────────────────
 def extract_fields(text: str) -> dict:
 
+            # the following are the columns which i added as per the sample invoice which i have attached, you can modify as you need
     result = {
         "invoice_type":       None,
         "invoice_number":     None,
